@@ -18,7 +18,7 @@ public class Ejercicio02 {
         // TODO code application logic here
         int[] respuestas = {1, 10, 11, 12, 12, 13, 16, 17, 18, 8, 9, 10, 21,
             -1, 100, 200, 2, 21, 22, 27};
-        String[] rangos = {"1-5", "6-10", "11-15", "16-20", "fuera de rango"};
+        String[] rangos = {"1-5", "6-10", "11-15", "16-20", "fuera"};
         int[] valoresRangos = new int[5]; // {0, 0, 0, 0, 0}
         int respuesta;
 

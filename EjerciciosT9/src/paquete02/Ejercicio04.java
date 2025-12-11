@@ -34,8 +34,8 @@ public class Ejercicio04 {
             } else if (promedio >= 9 && promedio <= 10) {
                 promediosCualitativos[i] = "Sobresaliente";
                 
-            } else {
-                promediosCualitativos[i] = "Fuera de rango";
+            //} else {
+                //promediosCualitativos[i] = "Fuera de rango";
             }
         }
         for (int i = 0; i < estudiantes.length; i++) {
