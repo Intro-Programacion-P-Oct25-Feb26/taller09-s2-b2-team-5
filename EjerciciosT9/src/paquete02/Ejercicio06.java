@@ -34,11 +34,9 @@ public class Ejercicio06 {
 
             if (opcion < 1 || opcion > 3) {
                 System.out.println("Opción inválida.");
-                
             }
 
             int valor = opcion - 1;
-
             System.out.print("¿Cuantas tazas desea comprar? ");
             int tazas = entrada.nextInt();
 
@@ -46,7 +44,7 @@ public class Ejercicio06 {
             subtotal[valor] += tazas * precios[valor];
             totalGeneral += tazas * precios[valor];
 
-            System.out.print("¿Desea seguir comprando? (S/N): ");
+            System.out.println("¿Desea seguir comprando? (S/N): ");
             String salida = entrada.next();
             if (salida.equalsIgnoreCase("N")) {
                 bandera = false;

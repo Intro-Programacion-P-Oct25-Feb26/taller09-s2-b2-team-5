@@ -36,6 +36,7 @@ public class Ejercicio03 {
         System.out.printf("Media aritmética: %.2f Arriba: %d Abajo: %d%n", media, arriba, abajo);
     }
 }
-for (int i = 0; i < arreglo.length; i++) {
-    double diferencia = arreglo[i] - media;
-    System.out.printf("Número: %d  Diferencia con el promedio: %.2f%n", arreglo[i], diferencia);
+
+
+
+
